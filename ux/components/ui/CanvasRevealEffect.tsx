@@ -3,7 +3,7 @@ import { cn } from "@/utils/cn";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import React, { useMemo, useRef } from "react";
 import * as THREE from "three";
-
+// commit
 export const CanvasRevealEffect = ({
   animationSpeed = 0.4,
   opacities = [0.3, 0.3, 0.3, 0.5, 0.5, 0.5, 0.8, 0.8, 0.8, 1],

@@ -21,7 +21,7 @@ export const CardSpotlight = ({
   const mouseY = useMotionValue(0);
   function handleMouseMove({ currentTarget, clientX, clientY }: ReactMouseEvent<HTMLDivElement>) {
     let { left, top } = currentTarget.getBoundingClientRect();
-
+    // commit
     mouseX.set(clientX - left);
     mouseY.set(clientY - top);
   }

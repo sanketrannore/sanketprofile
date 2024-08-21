@@ -7,6 +7,7 @@ type SpotlightProps = {
 };
 
 export const Spotlight = ({ className, fill }: SpotlightProps) => {
+  // commit
   return (
     <svg
       className={cn(

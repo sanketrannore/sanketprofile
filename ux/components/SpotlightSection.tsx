@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Spotlight } from "./ui/Spotlight";
 
 const SpotlightSection = () => {
+  // commit
   return (
     <Fragment>
       <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" />

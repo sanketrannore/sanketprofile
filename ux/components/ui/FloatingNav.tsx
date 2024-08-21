@@ -44,7 +44,7 @@ export const FloatingNav = ({
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+  // commit
   return (
     <AnimatePresence mode="wait">
       <motion.div

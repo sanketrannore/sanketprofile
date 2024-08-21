@@ -2,6 +2,7 @@ import { cn } from "@/utils/cn";
 import React from "react";
 
 export const Meteors = ({ number, className }: { number?: number; className?: string }) => {
+  // commit
   const meteors = new Array(number || 20).fill(true);
   return (
     <>
