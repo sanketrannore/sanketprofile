@@ -75,7 +75,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn(className)}>
       <div>
-        <div className=" dark:text-white text-black leading-snug tracking-wide">{renderWords()}</div>
+        <div className=" dark:text-white text-black tracking-wide">{renderWords()}</div>
       </div>
     </div>
   );

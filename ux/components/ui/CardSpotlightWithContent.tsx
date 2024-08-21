@@ -13,7 +13,7 @@ export function CardSpotlightWithContent({
 }) {
   return (
     <CardSpotlight>
-      <div className="flex flex-row gap-5 pb-5 justify-between align-top">
+      <div className="flex flex-col sm:flex-row gap-5 pb-5 justify-between align-top">
         <p className="text-md font-normal pt-0.4 relative text-nowrap text-gray-500">{date}</p>
         <div className="text-neutral-200 flex-grow-1 relative z-20">
           <h2 className="text-xl font-semibold text-white">{title}</h2>
