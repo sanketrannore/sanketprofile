@@ -24,6 +24,7 @@ const Hero = () => {
               type: "spring",
               bounce: 0.4,
               duration: 0.8,
+              delay: 0.2,
             },
           }}
           viewport={{ once: true, amount: 0.8 }}
@@ -69,6 +70,7 @@ const Hero = () => {
               type: "spring",
               bounce: 0.4,
               duration: 0.8,
+              delay: 0.2,
             },
           }}
           viewport={{ once: true, amount: 0.8 }}
