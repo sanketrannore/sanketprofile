@@ -22,7 +22,9 @@
     "three": "^0.167.1",
     "@react-three/drei": "^9.111.0",
     "@react-three/fiber": "^8.17.5",
-    "next-themes": "^0.3.0"
+    "i": "^0.3.7",
+    "next-themes": "^0.3.0",
+    "npm": "^10.8.2"
   },
   "devDependencies": {
     "@types/node": "^20",
