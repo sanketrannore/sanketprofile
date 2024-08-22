@@ -75,19 +75,19 @@ const Hero = () => {
           className="w-full h-full flex flex-col items-center justify-center sm:pt-0 pt-10 "
         >
           <p className="text-sm font-normal text-white leading-5 tracking-wide">
-            I'm a dedicated React developer with 3+ years of experience in front-end development. I thrive on
+            {`I'm a dedicated React developer with 3+ years of experience in front-end development. I thrive on
             transforming complex ideas into intuitive, responsive web applications. With a strong foundation in
             JavaScript and a keen eye for design, I specialize in creating pixel-perfect interfaces and efficient,
             reusable components.I enjoy working closely with designers and back-end developers to bring concepts to
             life, using the latest tools and technologies in the React ecosystem. Whether it’s developing from scratch
             or optimizing existing projects, I’m always up for a challenge. My expertise extends to working with tools
             like Next.js, Redux, and various CSS frameworks, enabling me to deliver high-quality, performant
-            applications.
+            applications.`}
           </p>
           <p className="mt-5 text-sm font-normal text-white leading-5 tracking-wide">
-            When I’m not immersed in development, I enjoy playing football, traveling to explore new cultures, and
+            {`When I’m not immersed in development, I enjoy playing football, traveling to explore new cultures, and
             staying fit at the gym. These activities keep me balanced and energized, allowing me to bring fresh
-            perspectives and ideas to my work.
+            perspectives and ideas to my work.`}
           </p>
         </motion.div>
       </div>
