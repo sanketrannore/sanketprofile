@@ -23,7 +23,7 @@ const Hero = () => {
             transition: {
               type: "spring",
               bounce: 0.4,
-              duration: 0.8,
+              duration: 1,
               delay: 0.2,
             },
           }}
@@ -69,7 +69,7 @@ const Hero = () => {
             transition: {
               type: "spring",
               bounce: 0.4,
-              duration: 0.8,
+              duration: 1.4,
               delay: 0.2,
             },
           }}
@@ -87,9 +87,9 @@ const Hero = () => {
             applications.
           </p>
           <p className="mt-5 text-sm font-normal text-white leading-5 tracking-wide">
-            {`When I&apos;m not immersed in development, I enjoy playing football, traveling to explore new cultures, and
+            When I&apos;m not immersed in development, I enjoy playing football, traveling to explore new cultures, and
             staying fit at the gym. These activities keep me balanced and energized, allowing me to bring fresh
-            perspectives and ideas to my work.`}
+            perspectives and ideas to my work.
           </p>
         </motion.div>
       </div>
