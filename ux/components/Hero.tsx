@@ -38,7 +38,7 @@ const Hero = () => {
             <div>.</div>
             <h5
               onClick={() =>
-                handleLinkClicked("https://drive.google.com/file/d/12qKfpBIimu8HLpIswfD90fP69DYvwzX9/view")
+                handleLinkClicked("https://drive.google.com/file/d/1nO95EXbJ7Lyp8FMK6fjAT3MmESwILnMs/view")
               }
               className="text-md font-normal cursor-pointer hover:text-purple"
             >
