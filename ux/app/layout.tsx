@@ -6,8 +6,12 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sanket Rannore",
-  description: "Sanket portfolio",
+  title: "Sanket Rannore | Frontend Developer",
+  description: "Sanket Rannore's portfolio showcasing expertise in React JS, Next JS, and modern frontend development.",
+  keywords:
+    "Sanket Rannore, Frontend Developer, React JS, React Native, Redux, Redux Toolkit, Tailwind CSS, React Router, JavaScript, TypeScript, HTML, CSS, Git, Material UI, Next JS, UI/UX Design, Web Development, Mobile App Development",
+  viewport: "width=device-width, initial-scale=1.0",
+  robots: "index, follow",
 };
 
 export default function RootLayout({
